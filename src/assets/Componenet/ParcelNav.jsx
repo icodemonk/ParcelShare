@@ -32,10 +32,10 @@ export default function ParcelNav() {
                 {/* Desktop Navigation Links */}
                 <div className="nav-links">
                     <Link to="/" className="nav-link">Home</Link>
-                    <Link to="/suggestion" className="nav-link">Suggestions</Link>
                     <Link to="/addparcel" className="nav-link">Add-Parcel</Link>
-                    <Link to="/prequest" className="nav-link">Request</Link>
-                    <Link to="/pmatch" className="nav-link">Match</Link>
+                    <Link to="/suggestion" className="nav-link">Request-Received</Link>
+                    <Link to="/prequest" className="nav-link">Accepted-Request</Link>
+                    <Link to="/parcel-matched" className="nav-link">Match</Link>
                 </div>
 
                 {/* Desktop Action Buttons */}
@@ -80,7 +80,7 @@ export default function ParcelNav() {
                     <li><Link to="/suggestion" className="mobile-nav-link" onClick={closeMobileMenu}>Suggestions</Link></li>
                     <li><Link to="/addparcel" className="mobile-nav-link" onClick={closeMobileMenu}>Add-Parcel</Link></li>
                     <li><Link to="/prequest" className="mobile-nav-link" onClick={closeMobileMenu}>Request</Link></li>
-                    <li><Link to="/pmatch" className="mobile-nav-link" onClick={closeMobileMenu}>Match</Link></li>
+                    <li><Link to="/parcel-matched" className="mobile-nav-link" onClick={closeMobileMenu}>Match</Link></li>
                 </ul>
 
                 <div className="mobile-nav-actions">
